@@ -1,12 +1,12 @@
 import "@/styles/globals.css";
 
-import Container from "@/components/Container/Container";
+import Layout from "@/components/Layout/Layout";
 
 export default function App({ Component, pageProps }) {
   return (
-    <Container>
+    <Layout>
       <Component {...pageProps} />
-    </Container>
+    </Layout>
     
   
   );
